@@ -8,7 +8,7 @@ extern bool fini;
 
 
 /* Les extern des variables pour la synchro ici */
-
+pthread_mutex_t mutex;
 
 /* Fonctions de synchro à implanter */
 
