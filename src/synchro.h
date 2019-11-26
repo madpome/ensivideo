@@ -2,6 +2,7 @@
 #define SYNCHRO_H
 
 #include <stdbool.h>
+#include <pthread.h>
 #include "ensitheora.h"
 
 extern bool fini;
