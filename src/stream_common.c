@@ -145,7 +145,7 @@ int decodeAllHeaders(int respac, struct streamstate *s, enum streamtype type) {
 		// lancement du thread gérant l'affichage (draw2SDL)
 	        // inserer votre code ici !!
             pthread_t draw_sdl;
-            pthread_create(&draw_sdl, NULL, draw2SDL,(void *) s)
+            pthread_create(&draw_sdl, NULL, draw2SDL,(void *) s);
 		assert(res == 0);
 	    }
 	}
